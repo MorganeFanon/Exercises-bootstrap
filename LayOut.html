@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+<!--
+I - Bloc positioning
+    <div class="container border border-dark rounded">
+        <div class="row align-items-start">
+            <div class="col-12"></div>
+           </div>
+        
+        <div class="row align-items-end">
+            <div class="col-2"></div>
+            <div class="col-2 text-center border border-dark rounded">Coucou</div>
+            <div class="col-2"></div>
+            <div class="col-2 text-center border border-dark rounded">ça</div>
+            <div class="col-2"></div>
+            <div class="col-2 text-center border border-dark rounded">va ?</div>
+        </div>
+        </div>
+    </div>
+-->
+
+<!--
+II - Imbricated elements
+<div class="container ">
+    <div class="row">
+        <div class="col-4 align-self-center bg-mauve text-center border border-dark rounded"> Nouvel</div>
+        <div class="col-8  align-self-center bg-mauve text-center border border-dark rounded">Exercice</div>
+    </div>
+    <div class="row text-center g-0">
+        <div class="col-4 bg-light"></div>
+        <div class="col-2   align-self-center bg-mauve text-center border border-dark rounded">Ces</div>
+        <div class="col-4   align-self-center bg-mauve text-center border border-dark rounded">blocs sont tous</div>
+        <div class="col-2   align-self-center bg-mauve text-center border border-dark rounded">dans</div>
+    </div>
+    <div class="row text-center g-0">
+        <div class="col-4 bg-light"></div>
+        <div class="col bg-mauve text-center border border-dark rounded">la même</div>
+        <div class="col bg-mauve  text-center border border-dark rounded">div où est</div>
+        <div class="col bg-mauve text-center border border-dark rounded">inscrit <b>"Exercice".</b></div>
+    </div>
+    <div class="row">
+        <div class="col-4 bg-light"></div>
+        <div class="col-3 bg-mauve  text-center border border-dark rounded">Comment</div>
+        <div class="col bg-mauve  text-center border border-dark rounded">est</div>
+        <div class="col-3 bg-mauve text-center border border-dark rounded">ce possible</div>
+    </div>
+
+</div>
+-->
+
+<!-- 
+    III -  Change the ellement order
+<div class="container border border-dark rounded placer élément en bas dans un container">
+    <div class="row">
+        <div class="col-12 bg-mauve"></div>
+    </div>
+    <div class="row jgx-5 justify-content-between">
+    <div class="col-1 order-1 bg-mauve"></div>
+     <div class="col-2 order-2 bg-mauve text-center border border-dark rounded">Bloc 1 de 2</div>
+     <div class="col-1 order-3 bg-mauve"></div>
+     <div class="col-2 order-6 bg-mauve text-center border border-dark rounded">Bloc 3 de 2</div>
+     <div class="col-1 order-5 bg-mauve"></div>
+     <div class="col-2 order-4 bg-mauve text-center border border-dark rounded">Bloc 2 de 2</div>
+     <div class="col-1 order-7  bg-mauve"></div>
+    </div>
+</div>
+-->
+<!--
+IV - practice makes good
+<div class="container bg-mauve text-center border border-dark rounded">
+    <div class="row">
+        <div class="col-6 bg-mauve border border-dark rounded border-bottom-0">6 colonnes</div>
+        <div class="col-6 bg-mauve border border-dark rounded .border-bottom-0">6 colonnes</div>
+    </div>
+    <div class="row">
+        <div class="col-2 align-self-end bg-mauve text-center border border-dark rounded">4 colonnes</div>
+        <div class="col-2 align-self-end bg-mauve"></div>
+        <div class="col-2 align-self-end bg-mauve text-center border border-dark rounded">4 colonnes</div>
+        <div class="col-2 align-self-end bg-mauve text-center border border-dark rounded">4 colonnes</div>
+        <div class="col-4 align-self-end bg-mauve text-center border border-dark rounded">8 colonnes</div>
+    </div>
+</div>
+-->
+<!--
+V - Responsive layout -->    
+<div class="container border border-dark px-4">
+    <div class="row">
+        <div class="col-xs-4 col-lg-3 grey text-center border border-dark">Logo</div>
+        <div class="col-xs-8 col-lg-9 grey text-center border border-dark">Titre</div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-12 grey text-center border border-dark">Hero (1/1)</div>
+    </div>
+
+    <div class="row justify-content-around">
+        <div class="col-xs-12 col-lg-4 grey text-center border border-dark">Zone 1</div>
+        <div class="col-xs-12 col-lg-4 grey text-center border border-dark">Zone 2</div>
+        <div class="col-xs-12 col-lg-4 grey text-center border border-dark ">Zone 3</div>
+    </div>
+    
+    <div class="row justify-content-around">
+        <div class="col-xs-8 col-lg-6 grey text-center border border-dark">Zone 5</div>
+        <div class="col-xs-4 col-lg-6 grey text-center border border-dark">Zone 6</div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-12 grey text-center border border-dark align-self-center">Zone 3</div>
+    </div>
+
+
+
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
